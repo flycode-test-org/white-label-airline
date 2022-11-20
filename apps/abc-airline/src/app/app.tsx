@@ -22,7 +22,7 @@ const history: History = createHashHistory();
 const { store, persistor } = configureAppStore(history);
 
 const defaultLanguage = 'zh-CN';
-const supportedLanguages = [defaultLanguage, 'en-GB'];
+const supportedLanguages = [defaultLanguage, 'en-GB', 'de-DE'];
 
 initI18n('./assets/i18n/{{lng}}.json', defaultLanguage);
 

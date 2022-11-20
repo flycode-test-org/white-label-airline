@@ -18,7 +18,7 @@ import { initSearchForm } from '../models/search-form-init.const';
 import { features } from './features.const';
 
 const defaultLanguage = 'en-GB';
-const supportedLanguages = [defaultLanguage, 'zh-CN'];
+const supportedLanguages = [defaultLanguage, 'zh-CN', 'de-DE'];
 
 initI18n('./assets/i18n/{{lng}}.json', defaultLanguage);
 const history: History = createHashHistory();
